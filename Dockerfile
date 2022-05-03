@@ -16,5 +16,7 @@ COPY . /app
 RUN npm install
 RUN npm i pm2 -g
 
+RUN pm2 save
+
 CMD ["npm", "start"]
 EXPOSE 6892
