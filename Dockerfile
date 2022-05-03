@@ -14,7 +14,7 @@ WORKDIR /app
 COPY . /app
 
 RUN npm install
-RUN npm i sharp -g
+RUN npm i sharp
 RUN npm i pm2 -g
 
 RUN pm2 save
