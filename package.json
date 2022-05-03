@@ -4,7 +4,7 @@
   "description": "THX FOR MHANKBARBAR AS MY FRIEND, REEDIT BY TOBZ",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "pm2-runtime index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "TOBZ",
