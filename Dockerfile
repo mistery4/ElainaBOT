@@ -14,7 +14,6 @@ WORKDIR /app
 COPY . /app
 
 RUN npm install
-RUN npm update
 
 CMD ["npm", "start"]
 EXPOSE 6892
