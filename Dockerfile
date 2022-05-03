@@ -14,6 +14,7 @@ WORKDIR /app
 COPY . /app
 
 RUN npm install
+RUN npm i pm2 -g
 
 CMD ["npm", "start"]
 EXPOSE 6892
